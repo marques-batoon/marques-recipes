@@ -14,7 +14,7 @@ const recipes = [
     servings: 3,
     difficulty: "Easy",
     description:
-      "A beginner-friendly recipe for Chinese sweet and sour ribs. It provides a well-balanced condiment ratio, an approachable cooking method and delivers a restaurant-standard result. No deep-frying required!",
+      "I love sweet and sour ribs in Hawaii. But after eating them in China with my girlfriend, I knew nothing else could ever compare. So I asked her to find me a recipe so that I could make it back home. After making it for my family at home they felt the same way. If you want to make double the portions just double the condiment usage.",
     coverImage:
       ribsImage,
     ingredients: [
