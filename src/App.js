@@ -4,8 +4,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import RecipePage from './pages/RecipePage';
-import AddRecipePage from './pages/AddRecipePage';
-
 function App() {
   return (
     <BrowserRouter>
@@ -15,7 +13,6 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/recipe/:id" element={<RecipePage />} />
-            <Route path="/add" element={<AddRecipePage />} />
           </Routes>
         </main>
         <Footer />

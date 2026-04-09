@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import recipes from '../data/recipes';
 
-const GITHUB_AVATAR = 'https://avatars.githubusercontent.com/u/76052527?v=4';
+const GITHUB_AVATAR = 'https://media.licdn.com/dms/image/v2/D5603AQFeGHlJ1XaRQA/profile-displayphoto-scale_200_200/B56ZvM39LLGQAY-/0/1768668779870?e=1777507200&v=beta&t=ALX-J3k2ZqffbkvxdCi8P7E6QnHE99pjpMY_NBty_98';
 
 function RecipeCard({ recipe, onClick, delay }) {
   return (

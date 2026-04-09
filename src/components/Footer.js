@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-copy">
-          © {new Date().getFullYear()} Marques Batoon · Built with React
+          © {new Date().getFullYear()} Marques Batoon
         </div>
       </div>
     </footer>

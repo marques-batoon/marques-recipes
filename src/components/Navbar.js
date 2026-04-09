@@ -18,7 +18,6 @@ export default function Navbar() {
           </Link>
           <div className="navbar-links">
             <Link to="/" className={isActive('/')}>Home</Link>
-            <Link to="/add" className="nav-add-btn">+ Add Recipe</Link>
           </div>
           <button
             className="hamburger"
@@ -33,9 +32,6 @@ export default function Navbar() {
       </nav>
       <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
         <Link to="/" className={isActive('/')}>Home</Link>
-        <Link to="/add" className="nav-add-btn" style={{ textAlign: 'center', marginTop: 8 }}>
-          + Add Recipe
-        </Link>
       </div>
     </>
   );
